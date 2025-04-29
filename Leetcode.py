@@ -3,7 +3,6 @@ class Solution(object):
         """
         :type board: List[List[str]]
         :rtype: None Do not return anything, modify board in-place instead.
-        deleting things
         """
         m = len(board)
         n = len(board[0])
