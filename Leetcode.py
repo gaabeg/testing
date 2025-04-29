@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: None Do not return anything, modify board in-place instead.
         deleting things
         """
-        # m = len(board)
+        m = len(board)
         n = len(board[0])
         for i in range(m):
             if (i == 0 or i == m-1):
